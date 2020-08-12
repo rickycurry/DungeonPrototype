@@ -13,6 +13,10 @@ class Room(abc.ABC):
     def get_area_offsets(self) -> list:
         pass
 
+    @abc.abstractmethod
+    def max_doors(self) -> int:
+        pass
+
 
 class RectangleRoom(Room):
     def __init__(self, code: int, upper_left: Pos, lower_right: Pos):
@@ -29,27 +33,27 @@ class RectangleRoom(Room):
                 ret.append(Pos(x, y))
         return ret
 
+    def max_doors(self) -> int:
+        ns_edge_length = self.lower_right.y - self.upper_left.y + 1
+        ew_edge_length = self.lower_right.x - self.upper_left.x + 1
+        return 2 * (ns_edge_length + ew_edge_length) - 4  # corners are double-counted
+
 
 class CircleRoom(Room):
-    def __init__(self, code: int, center: Pos, radius: float):
-        if center.x % 1 != 0.5 or center.y % 1 != 0.5:
-            raise ValueError("Circle center position should be a half-position (x.5, y.5).")
-        if radius % 1 != 0.5:
-            raise ValueError("Circle radius should be x.5")
+    def __init__(self, code: int, center: Pos, radius: int):
         super().__init__(code)
         self.center = center
         self.radius = radius
 
     def get_area_offsets(self) -> list:
         ret = []
-        sq_radius = self.radius**2
-        for x in range(int(self.center.x - self.radius), int(self.center.x + self.radius)):
-            for y in range(int(self.center.y - self.radius), int(self.center.y + self.radius)):
-                # Check all four corners of unit square (also think of a better way to do this)
-                sq_dist_ll = (float(x) - self.center.x)**2 + (float(y) - self.center.y)**2
-                sq_dist_ul = (float(x) - self.center.x)**2 + (float(y + 1) - self.center.y)**2
-                sq_dist_lr = (float(x + 1) - self.center.x)**2 + (float(y) - self.center.y)**2
-                sq_dist_ur = (float(x + 1) - self.center.x)**2 + (float(y + 1) - self.center.y)**2
-                if sq_dist_ll < sq_radius or sq_dist_ul < sq_radius or sq_dist_lr < sq_radius or sq_dist_ur < sq_radius:
+        sqr_radius = float(self.radius + 0.5)**2
+        for x in range(self.center.x - self.radius, self.center.x + self.radius + 1):
+            for y in range(self.center.y - self.radius, self.center.y + self.radius + 1):
+                sqr_dist = (x - self.center.x)**2 + (y - self.center.y)**2
+                if sqr_dist <= sqr_radius:
                     ret.append(Pos(int(x), int(y)))
         return ret
+
+    def max_doors(self) -> int:
+        return 4  # The four cardinal walls are the only places we can put doors
