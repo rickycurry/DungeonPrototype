@@ -1,0 +1,10 @@
+INSERT INTO emotions (id, name) VALUES (1, 'Sense of dread');
+INSERT INTO emotions (id, name) VALUES (2, 'Ominous feeling');
+INSERT INTO emotions (id, name) VALUES (3, 'Feeling of being watched');
+INSERT INTO emotions (id, name) VALUES (4, 'Feeling of familiarity');
+INSERT INTO emotions (id, name) VALUES (5, 'Deja vu');
+INSERT INTO emotions (id, name) VALUES (6, 'Sense of great age');
+INSERT INTO emotions (id, name) VALUES (7, 'Feeling of insignificance');
+INSERT INTO emotions (id, name) VALUES (8, 'Feeling of being unwelcome');
+INSERT INTO emotions (id, name) VALUES (9, 'Sense of growing danger');
+INSERT INTO emotions (id, name) VALUES (10, 'Sense of time running out');

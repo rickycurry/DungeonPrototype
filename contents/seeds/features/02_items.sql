@@ -1,0 +1,10 @@
+INSERT INTO items (id, name) VALUES (1, 'Book');
+INSERT INTO items (id, name) VALUES (2, 'Stick');
+INSERT INTO items (id, name) VALUES (3, 'Goblet');
+INSERT INTO items (id, name) VALUES (4, 'Garment');
+INSERT INTO items (id, name) VALUES (5, 'Candle');
+INSERT INTO items (id, name) VALUES (6, 'Bottle');
+INSERT INTO items (id, name) VALUES (7, 'Knife');
+INSERT INTO items (id, name) VALUES (8, 'Pouch');
+INSERT INTO items (id, name) VALUES (9, 'Rope');
+INSERT INTO items (id, name) VALUES (10, 'Skull');

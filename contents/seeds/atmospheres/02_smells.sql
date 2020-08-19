@@ -1,0 +1,10 @@
+INSERT INTO smells (id, name) VALUES (1, 'Acrid');
+INSERT INTO smells (id, name) VALUES (2, 'Dank');
+INSERT INTO smells (id, name) VALUES (3, 'Earthy');
+INSERT INTO smells (id, name) VALUES (4, 'Metallic');
+INSERT INTO smells (id, name) VALUES (5, 'Putrid');
+INSERT INTO smells (id, name) VALUES (6, 'Rot');
+INSERT INTO smells (id, name) VALUES (7, 'Smokey');
+INSERT INTO smells (id, name) VALUES (8, 'Stale');
+INSERT INTO smells (id, name) VALUES (9, 'Sulphur');
+INSERT INTO smells (id, name) VALUES (10, 'Urine');

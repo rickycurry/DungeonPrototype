@@ -1,0 +1,10 @@
+INSERT INTO noises (id, name) VALUES (1, 'Cracking');
+INSERT INTO noises (id, name) VALUES (2, 'Chanting');
+INSERT INTO noises (id, name) VALUES (3, 'Clanking');
+INSERT INTO noises (id, name) VALUES (4, 'Hissing');
+INSERT INTO noises (id, name) VALUES (5, 'Rumbling');
+INSERT INTO noises (id, name) VALUES (6, 'Wailing');
+INSERT INTO noises (id, name) VALUES (7, 'Dripping');
+INSERT INTO noises (id, name) VALUES (8, 'Grating');
+INSERT INTO noises (id, name) VALUES (9, 'Footsteps');
+INSERT INTO noises (id, name) VALUES (10, 'Whispering');

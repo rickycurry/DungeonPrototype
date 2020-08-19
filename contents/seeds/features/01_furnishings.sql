@@ -6,5 +6,5 @@ INSERT INTO furnishings (id, name) VALUES (5, 'Chest');
 INSERT INTO furnishings (id, name) VALUES (6, 'Shelf');
 INSERT INTO furnishings (id, name) VALUES (7, 'Bed');
 INSERT INTO furnishings (id, name) VALUES (8, 'Desk');
-INSERT INTO furnishings (id, name) VALUES (9, 'Bench');
+INSERT INTO furnishings (id, name) VALUES (9, 'Mirror');
 INSERT INTO furnishings (id, name) VALUES (10, 'Basin');

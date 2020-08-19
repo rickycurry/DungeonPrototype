@@ -1,0 +1,10 @@
+INSERT INTO architectures (id, name) VALUES (1, 'Pillar');
+INSERT INTO architectures (id, name) VALUES (2, 'Pool');
+INSERT INTO architectures (id, name) VALUES (3, 'Balcony');
+INSERT INTO architectures (id, name) VALUES (4, 'Bridge');
+INSERT INTO architectures (id, name) VALUES (5, 'Statue');
+INSERT INTO architectures (id, name) VALUES (6, 'Throne');
+INSERT INTO architectures (id, name) VALUES (7, 'Pit');
+INSERT INTO architectures (id, name) VALUES (8, 'Ledge');
+INSERT INTO architectures (id, name) VALUES (9, 'Alcove');
+INSERT INTO architectures (id, name) VALUES (10, 'Fireplace');

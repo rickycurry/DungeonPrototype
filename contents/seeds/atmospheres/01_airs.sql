@@ -1,0 +1,10 @@
+INSERT INTO airs (id, name) VALUES (1, 'Damp');
+INSERT INTO airs (id, name) VALUES (2, 'Cold');
+INSERT INTO airs (id, name) VALUES (3, 'Drafty');
+INSERT INTO airs (id, name) VALUES (4, 'Misty');
+INSERT INTO airs (id, name) VALUES (5, 'Warm');
+INSERT INTO airs (id, name) VALUES (6, 'Clear');
+INSERT INTO airs (id, name) VALUES (7, 'Hazy');
+INSERT INTO airs (id, name) VALUES (8, 'Humid');
+INSERT INTO airs (id, name) VALUES (9, 'Smokey');
+INSERT INTO airs (id, name) VALUES (10, 'Windy');

@@ -1,0 +1,10 @@
+INSERT INTO clues (id, name) VALUES (1, 'Blood');
+INSERT INTO clues (id, name) VALUES (2, 'Scorch marks');
+INSERT INTO clues (id, name) VALUES (3, 'Bones');
+INSERT INTO clues (id, name) VALUES (4, 'Fur');
+INSERT INTO clues (id, name) VALUES (5, 'Body');
+INSERT INTO clues (id, name) VALUES (6, 'Scratches');
+INSERT INTO clues (id, name) VALUES (7, 'Tracks');
+INSERT INTO clues (id, name) VALUES (8, 'Food');
+INSERT INTO clues (id, name) VALUES (9, 'Wear');
+INSERT INTO clues (id, name) VALUES (10, 'Writing');
