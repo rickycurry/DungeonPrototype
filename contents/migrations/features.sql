@@ -1,0 +1,28 @@
+CREATE TABLE features (
+  id SERIAL PRIMARY KEY NOT NULL,
+  furniture BOOLEAN,
+  item BOOLEAN,
+  clue BOOLEAN,
+  architecture BOOLEAN,
+  decor BOOLEAN
+);
+
+CREATE TABLE furnishings (
+  id SERIAL PRIMARY KEY NOT NULL,
+  name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE items (
+  id SERIAL PRIMARY KEY NOT NULL,
+  name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE clues (
+  id SERIAL PRIMARY KEY NOT NULL,
+  name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE architectures (
+  id SERIAL PRIMARY KEY NOT NULL,
+  name VARCHAR(255) NOT NULL
+);

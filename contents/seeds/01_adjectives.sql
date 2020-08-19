@@ -1,0 +1,10 @@
+INSERT INTO adjectives (id, word) VALUES (1, 'Dark');
+INSERT INTO adjectives (id, word) VALUES (2, 'Old');
+INSERT INTO adjectives (id, word) VALUES (3, 'Broken');
+INSERT INTO adjectives (id, word) VALUES (4, 'Glowing');
+INSERT INTO adjectives (id, word) VALUES (5, 'Cold');
+INSERT INTO adjectives (id, word) VALUES (6, 'Secret');
+INSERT INTO adjectives (id, word) VALUES (7, 'Unholy');
+INSERT INTO adjectives (id, word) VALUES (8, 'Wet');
+INSERT INTO adjectives (id, word) VALUES (9, 'Blue');
+INSERT INTO adjectives (id, word) VALUES (10, 'Giant');
