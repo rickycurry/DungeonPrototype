@@ -1,0 +1,5 @@
+CREATE TABLE specials (
+  id SERIAL PRIMARY KEY NOT NULL,
+  description VARCHAR(255) NOT NULL,
+  effect VARCHAR(255) NOT NULL
+)

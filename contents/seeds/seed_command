@@ -1,0 +1,26 @@
+TABLES
+====================================
+\i contents/migrations/contents.sql
+\i contents/migrations/atmospheres.sql
+\i contents/migrations/features.sql
+\i contents/migrations/monsters.sql
+\i contents/migrations/specials.sql
+\i contents/migrations/treasures.sql
+
+
+DATA
+====================================
+\i contents/seeds/atmospheres/01_airs.sql
+\i contents/seeds/atmospheres/02_smells.sql
+\i contents/seeds/atmospheres/03_noises.sql
+\i contents/seeds/atmospheres/04_emotions.sql
+
+\i contents/seeds/features/01_furnishings.sql
+\i contents/seeds/features/02_items.sql
+\i contents/seeds/features/03_clues.sql
+\i contents/seeds/features/04_architectures.sql
+
+\i contents/seeds/monsters/01_monsters.sql
+
+\i contents/seeds/01_adjectives.sql
+\i contents/seeds/02_specials.sql

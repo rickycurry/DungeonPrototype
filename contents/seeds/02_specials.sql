@@ -1,0 +1,10 @@
+INSERT INTO specials (id, description, effect) VALUES (101, 'Alarm', 'Roll wandering monsters');
+INSERT INTO specials (id, description, effect) VALUES (102, 'Animating object', 'Object in the room comes alive');
+INSERT INTO specials (id, description, effect) VALUES (103, 'Falling blocks', 'Blocks fall and block exit');
+INSERT INTO specials (id, description, effect) VALUES (104, 'Illusion', 'Something in the room is an illusion');
+INSERT INTO specials (id, description, effect) VALUES (105, 'Shifting architecture', 'Doors lock');
+INSERT INTO specials (id, description, effect) VALUES (106, 'Strange waters', 'Pool or fountain with magical effects');
+INSERT INTO specials (id, description, effect) VALUES (107, 'Voices', 'Something in the room speaks');
+INSERT INTO specials (id, description, effect) VALUES (108, 'Lighting', 'The lighting in the room is an unusual colour');
+INSERT INTO specials (id, description, effect) VALUES (109, 'Wind', 'Strong winds blow out torches');
+INSERT INTO specials (id, description, effect) VALUES (110, 'Plants', 'Strange vegetation');

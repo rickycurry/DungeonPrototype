@@ -1,0 +1,10 @@
+INSERT INTO furnishings (id, name) VALUES (81, 'Goblin');
+INSERT INTO furnishings (id, name) VALUES (82, 'Giant Spider');
+INSERT INTO furnishings (id, name) VALUES (83, 'Skeleton');
+INSERT INTO furnishings (id, name) VALUES (84, 'Ghoul');
+INSERT INTO furnishings (id, name) VALUES (85, 'Kobold');
+INSERT INTO furnishings (id, name) VALUES (86, 'Stirge');
+INSERT INTO furnishings (id, name) VALUES (87, 'Bandit');
+INSERT INTO furnishings (id, name) VALUES (88, 'Green Slime');
+INSERT INTO furnishings (id, name) VALUES (89, 'Wolf');
+INSERT INTO furnishings (id, name) VALUES (90, 'Acolyte');
